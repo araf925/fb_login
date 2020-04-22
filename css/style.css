@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.header{
+	overflow: hidden;
+	background-color: #3C5A9A;
+	color: white;
+}
+.wrapper{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.wrapper h1{
+	float: left;
+	width: 15%;
+	font-family: cursive;
+}
+.box{
+	float: right;
+	width: 45%;
+}
+.first{
+	padding: 15px 5px 5px 5px;
+}
+.first table{
+	width: 100%;
+}
+.first table tr td button{
+	background-color: #466AB4;
+	border: 1px solid black;
+	cursor: pointer;
+	color: white;
+}
+.first table tr td a{
+	color: white;
+	text-decoration: none;
+}
+.banner{
+	overflow: hidden;
+	background-color: #EAEBEF;
+	margin-bottom: 50px;
+}
+.wrapper1{
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+}
+.left{
+	float: left;
+	width: 30%;
+	padding: 5px 5px 5px 5px;
+}
+.left h1{
+	font-size: 35px;
+}
+.left h3{
+	font-size: 20px;
+	font-weight: 300;
+}
+.left div{
+	width: 70%;
+	margin: auto;
+}
+.left div a img{
+	transition: 0.8s;
+}
+.left div a img:hover{
+	box-shadow: 20px 20px 50px grey;
+}
+
+.right{
+	float: right;
+	width: 40%;
+	overflow: hidden;
+}
+.right h1{
+	font-size: 35px;
+}
+.right h3{
+	font-weight: 300;
+	font-size: 20px;
+}
+.form{}
+.name{
+	width: 46%;
+	border-radius: 6px;
+	font-size: 18px;
+	margin: 10px 0px;
+	padding: 8px 0px 10px 5px;
+	outline: none;
+	border: 1px solid #C3C6CB;
+}
+.big_bar{
+	width: 95%;
+	border-radius: 8px;
+	font-size: 18px;
+    margin: 10px 0px;
+    padding: 12px 0px 11px 5px;
+    border: 1px solid #C3C6CB;
+}
+.label{
+	margin: 10px 10px;
+	color: grey;
+	font-size: 18px;
+}
+.date{
+	width: 40%;
+	padding: 5px 5px 5px 5px;
+	font-size: 18px;
+}
+.button{
+	color: white;
+	margin-top: 10px;
+    padding: 25px 0px;
+	width: 35%;
+	text-align: center;
+	position: relative;
+	left: 32%;
+	border: 0.5px solid #76A466;
+	background-color: #76A466;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.right p a{
+	text-decoration: none;
+}
